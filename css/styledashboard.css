@@ -1,0 +1,100 @@
+body{
+	margin:50px;
+}
+
+header{
+	border:2px solid #ffc107a1;
+	background-color: #ffc107a1;	
+}
+
+header a{
+	text-decoration: none;
+	font-family: pristina;
+	margin:20px;
+	color: #795548;
+
+}
+
+header form table{
+	cursor:pointer;
+	margin-top: -60px;
+	margin-right: 40px;
+	float:right;
+	font-family:constantia;
+	font-weight: bold;
+	color: #795548;
+}
+
+header form table tr td button{
+	cursor:pointer;
+	background-color:#795548d4;
+	padding: 5px 5px 5px 5px;
+	border-width:0px;
+
+	font-family:constantia;
+	font-weight: bold;
+	color:white;
+
+}
+
+header form table tr td button:hover{
+	background-color:#7955488c;
+}
+
+#normal_Mode
+{
+	float:left;
+	display:inline;
+    border:2px solid #009688;
+}
+
+#hacker_Mode
+{
+	float:right;
+	display:inline;
+    border:2px solid #009688;
+}
+
+.modal{
+	
+	visibility:hidden;
+	background-color: rgba(0,0,0,0.7);
+	position:fixed;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	height:100%;
+	width:100%;
+}
+.modal__close{
+	color: red;
+	text-decoration: none;
+	margin-left: 500px;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.modal__dialog{
+	
+	vertical-align:middle;
+
+}
+
+.modal__content{
+	background:rgb(255,255,255);
+	width:40%;
+	min-width:100px;
+	margin-top:150px; 
+}
+
+#add2table{
+	cursor:pointer;
+	background-color:#8bc34a;
+	padding: 10px 10px 10px 10px;
+	color:#000000;
+	font-weight: bold;
+}
+#add2table:hover{
+	color:white;
+}

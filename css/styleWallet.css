@@ -1,0 +1,79 @@
+body{
+	margin:100px;
+}
+
+header{
+	border:2px solid #ffc107a1;
+	background-color: #ffc107a1;	
+}
+
+header a{
+	text-decoration: none;
+	font-family: pristina;
+	margin:20px;
+	color: #795548;
+
+}
+
+header form table{
+	margin-top: -70px;
+	margin-right: 40px;
+	float:right;
+	font-family:constantia;
+	font-weight: bold;
+	color: #795548;
+}
+
+header form table tr td button{
+	cursor:pointer;
+	background-color:#795548d4;
+	padding: 5px 5px 5px 5px;
+	border-width:0px;
+	font-family:constantia;
+	font-weight: bold;
+	color:white;
+
+}
+
+header form table tr td button:hover{
+	background-color:#7955488c;
+}
+
+section{
+	display:inline;
+    border:2px solid #009688;
+	cursor:pointer;
+	float:right;
+	margin-right: 100px;
+	font-weight: bold;
+	color: #795548;
+	font-size:120%;
+}
+
+section h5{
+	margin:50px;
+	font-size:150%;
+	color:#009688;
+}
+
+section form{
+	margin:50px;
+	font-family:constantia;
+}
+
+section form button{
+	cursor:pointer;
+	background-color:#009688;
+	padding: 1px 10px 3px 10px;
+	border-style:solid;
+	border-color: black;
+	font-family:constantia;
+	font-weight: bold;
+	font-size: 120%;
+	color:white;
+}
+
+section form button:hover{
+	font-size:150%;	
+}
+
